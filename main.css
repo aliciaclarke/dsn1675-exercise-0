@@ -1,0 +1,22 @@
+html {
+    font-family: helvetica,sans-serif;
+    font-size:1rem;
+}
+
+dl {
+    border: 1px solid red;
+    overflow: hidden;
+} /* overflow hidden can be used as a clearfix it reminds the <dl> to wrap around its floated children*/
+
+dt {
+    float:left;
+    clear:left;
+    width:8rem; /*pushed numbers out to align them*/
+}
+
+dd {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
